@@ -1,0 +1,87 @@
+$dark-red: rgba(140, 28, 19, 1);
+$deep-chestnut: rgba(191, 67, 66, 1);
+$almond: rgba(231, 215, 193, 1);
+$beaver: rgba(167, 138, 127, 1);
+$liver: rgba(115, 87, 81, 1);
+
+.header {
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: $almond;
+
+    h1 {
+        color: $dark-red;
+        margin-left: 100px;
+        margin-top: 25px;
+        font-size: 24px;
+        width: 200px;
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        margin-top: 30px;
+
+        li {
+            margin: 0 10px;
+        }
+    }
+}
+
+.header__upper-header {
+    display: flex;
+    justify-content: right;
+    background-color: $beaver;
+    font-size: 14px;
+    height: 40px;
+
+    ul {
+        margin-top: 0px;
+        margin-right: 100px;
+
+        li {
+            margin: 10px 10px;
+        }
+    }
+}
+
+.header__lower-header {
+    display: flex;
+}
+
+.header__wish-search {
+    margin-right: 100px;
+    margin-top: -14px;
+
+    li {
+        * {
+            height: 25px;
+            width: 25px;
+            position: relative;
+            top: 6px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.header__wish-heart {
+    color: $deep-chestnut;
+}
+
+.header__menu {
+    li {
+        cursor: pointer;
+    }
+
+    li:hover {
+        padding-bottom: 3px;
+        border-bottom: 2px solid $deep-chestnut;
+    }
+}

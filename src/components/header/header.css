@@ -1,0 +1,90 @@
+.header {
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-color: #e7d7c1;
+}
+
+.header h1 {
+  color: #8c1c13;
+  margin-left: 100px;
+  margin-top: 25px;
+  font-size: 24px;
+  width: 200px;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+.header ul li {
+  margin: 0 10px;
+}
+
+.header__upper-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  background-color: #a78a7f;
+  font-size: 14px;
+  height: 40px;
+}
+
+.header__upper-header ul {
+  margin-top: 0px;
+  margin-right: 100px;
+}
+
+.header__upper-header ul li {
+  margin: 10px 10px;
+}
+
+.header__lower-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__wish-search {
+  margin-right: 100px;
+  margin-top: -14px;
+}
+
+.header__wish-search li * {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 6px;
+  margin-right: 10px;
+}
+
+.header__wish-heart {
+  color: #bf4342;
+}
+
+.header__menu li {
+  cursor: pointer;
+}
+
+.header__menu li:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid #bf4342;
+}
+/*# sourceMappingURL=header.css.map */
