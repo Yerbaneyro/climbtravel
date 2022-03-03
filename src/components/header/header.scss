@@ -5,10 +5,13 @@ $beaver: rgba(167, 138, 127, 1);
 $liver: rgba(115, 87, 81, 1);
 
 .header {
+    position: fixed;
+    top: 0px;
     display: block;
     width: 100%;
     height: 120px;
-    background-color: $almond;
+    background-color: white;
+    z-index: 2;
 
     h1 {
         color: $dark-red;
@@ -38,7 +41,7 @@ $liver: rgba(115, 87, 81, 1);
 .header__upper-header {
     display: flex;
     justify-content: right;
-    background-color: $beaver;
+    background-color: $almond;
     font-size: 14px;
     height: 40px;
 
